@@ -1,4 +1,4 @@
-describe('Firebase', () => {
+describe('Firebase interaction', () => {
 
   it('should successfully store data to Firebase', () => {
     cy.intercept(
@@ -15,6 +15,6 @@ describe('Firebase', () => {
     cy.get('button').click();
 
 
-    cy.get('@todo')
+    cy.get('@addTodo')
   });
 });
