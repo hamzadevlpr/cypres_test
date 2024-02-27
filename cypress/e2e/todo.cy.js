@@ -15,6 +15,6 @@ describe('Firebase', () => {
     cy.get('button').click();
 
 
-    cy.get('@addTodo')
+    cy.get('@todo')
   });
 });
